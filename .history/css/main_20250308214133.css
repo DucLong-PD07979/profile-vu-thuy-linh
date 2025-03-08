@@ -174,18 +174,6 @@ nav ul li:hover .menu-children {
     padding: 20px 0;
 }
 
-.family-section-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-}
-
-.family-section-content .box img {
-    width: 100%;
-    height: 340px;
-    object-fit: fill;
-}
-
 footer {
     background-color: #ff40c2;
     color: white;

@@ -169,21 +169,9 @@ nav ul li:hover .menu-children {
 /* gia dinh */
 
 #family-section {
-    background-color: #e8d5f3;
+    background-color: #e1acff;
     width: 100%;
     padding: 20px 0;
-}
-
-.family-section-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-}
-
-.family-section-content .box img {
-    width: 100%;
-    height: 340px;
-    object-fit: fill;
 }
 
 footer {

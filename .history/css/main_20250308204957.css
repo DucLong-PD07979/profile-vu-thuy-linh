@@ -119,71 +119,33 @@ nav ul li:hover .menu-children {
 }
 
 .participation-content a {
-    color: #404042;
-    display: block;
-    padding: 6px 0;
+    color: #2c2c2c;
 }
 
-.participation-content a:hover {
-    color: #fe73d2;
-    text-decoration: underline;
-}
-
-/* giới thiệu bản thân */
-#introduce-section {
-    background-color: #fbdce2;
-    width: 100%;
-    padding: 20px 0;
-}
-
-.introduce-section-content {
+.grid-hero__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    align-items: center;
-}
-
-.introduce-section-content .box .gallery {
-    width: 100%;
-}
-
-.introduce-section-content .box .gallery img {
-    width: 100%;
-    height: 400px;
-    object-fit: fill;
-}
-
-.introduce-section-content .item-3 {
-    grid-column: 1 /3;
-    display: grid;
-    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
-.introduce-section-content img {
+.image_box img {
     width: 100%;
-    height: 600px;
-    margin: 50px 0;
+    height: 200px;
+    margin-bottom: 10px;
 }
 
-/* gia dinh */
+.connect-social {
+    display: block;
+    color: #4e4780;
+    text-decoration: none;
+    height: 70px;
+}
 
-#family-section {
-    background-color: #e8d5f3;
+.gallery img {
     width: 100%;
-    padding: 20px 0;
-}
-
-.family-section-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-}
-
-.family-section-content .box img {
-    width: 100%;
-    height: 340px;
+    height: 200px;
     object-fit: fill;
+    margin-bottom: 10px;
 }
 
 footer {
