@@ -26,8 +26,8 @@ header .container {
 }
 
 .logo img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
 }
 
@@ -221,7 +221,6 @@ nav ul li:hover .menu-children {
     background-color: #dceeff;
     width: 100%;
     padding: 20px 0;
-    min-height: 500px;
 }
 
 /* sở thích */
@@ -229,13 +228,11 @@ nav ul li:hover .menu-children {
     display: flex;
     gap: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.hobbies-section-content .images {
+.hobbies-section-content .images{
     width: 100%;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 
 .hobbies-section-content .images img {
